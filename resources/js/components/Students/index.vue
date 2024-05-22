@@ -16,6 +16,7 @@ onMounted(async ()=>{
     getAllclasses()
 })
 
+
 const  getAllclasses  = async ()=>
 {
     let response = await axios.get('/api/getAllclasses')
